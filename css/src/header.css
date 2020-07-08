@@ -1,0 +1,45 @@
+#headBox{
+	position: fixed; top: 0; left: 0;
+	width: 100%; height: 70px;
+	background-color: #cfcfcf;
+}
+
+.head_area{
+	width: 100%; height: 100%;
+	max-width: 1024px; margin: auto;	
+	padding: 20px 10px;  box-sizing: border-box;
+}
+
+h1{
+	float: left;
+	width: 10%; min-width: 120px; 
+	height: 100%;
+	background-color: #cfc;
+}
+
+#gnbBox{
+	float: right;
+	width: auto; height: 100%;
+	text-transform: uppercase;
+	padding-top: 10px; box-sizing: border-box;
+}
+
+#gnbBox ul{
+	width: 100%; height: 100%;
+}
+
+#gnbBox li{
+	float: left;
+	margin-right: 1rem; 
+	width: auto; height: 100%;
+}
+
+#gnbBox li a{
+	display: block;
+	width: 100%; height: 100%;
+}
+
+#gnbBox li a:hover,
+#gnbBox li a:focus{
+	font-weight: bold;
+}
