@@ -27,6 +27,12 @@
 	font-size: 2rem;
 }
 
+h3 span{
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+
+
 .profile_text p{
 	text-transform: capitalize;
 	font-size: 1.1rem;
